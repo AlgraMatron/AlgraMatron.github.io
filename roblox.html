@@ -1,1 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+  </head>
+  <body>
+      <title>Algras. Register
+      </title>
+    
+     <style type="text/css">body, a:hover {cursor: url(http://cur.cursors-4u.net/others/oth-6/oth580.cur), progress !important;}</style>
+	  <a href="http://www.cursors-4u.com/cursor/2011/02/17/sapphire-9.html" target="_blank" title="Sapphire">
+	  <img src="http://cur.cursors-4u.net/cursor.png" border="0" alt="Sapphire" style="position:absolute; top: 0px; right: 0px;" /></a>
+    
+    <nav class="navbar navbar-expand-lg navbar-light bg-grey">
+          <img src="https://i.pinimg.com/originals/8c/27/d6/8c27d624c0b6a4dc7a74c57b71c085eb.jpg" width="30" height="30" alt="">
+  <a class="navbar-brand" href="https://algramatron.github.io">ㅤ Algras--</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+    <div class="navbar-nav">
+      <a class="nav-item nav-link active" href="https://algramatron.github.io">Home <span class="sr-only">(current)</span></a>
+      <a class="nav-item nav-link" href="https://algramatron.github.io/form.html">Login</a>
+      <a class="nav-item nav-link" href="https://algramatron.github.io/register.html">Register</a>
+    </div>
+  </div>
+</nav>
+        <form>
+                <form>
+                        <div class="form-group row">
+                          <label for="staticEmail" class="col-sm-2 col-form-label">Email</label>
+                          <div class="col-sm-10">
+                                <input type="text" class="form-control" id="email" placeholder="Email Address">
+                          </div>
+                        </div>
+                        <div class="form-group row">
+                          <label for="inputPassword" class="col-sm-2 col-form-label">Password</label>
+                          <div class="col-sm-10">
+                            <input type="password" class="form-control" id="password" placeholder="Password">
+                          </div>
+                        </div>
+                      </form>
+                     <label><input type="radio" name="indoor-outdoor"> Male</label>
+                   <label><input type="radio" name="indoor-outdoor"> Female</label>
+                <div class="form-check">
+                  <label class="form-check-label">
+                    <input type="checkbox" class="form-check-input">
+                    Check me out
+                  </label>
+                </div>
+		
+          <button type="submit" class="btn btn-primary" id="register" href="https://algramatron.github.io/registersuccess.html">Register</button>
+              </form>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js" integrity="sha384-b/U6ypiBEHpOf/4+1nzFpr53nxSS+GLCkfwBdFNTxtclqqenISfwAzpKaMNFNmj4" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/js/bootstrap.min.js" integrity="sha384-h0AbiXch4ZDo7tp9hKZ4TsHbi047NrKGLO3SEJAg45jXxnGIfYzk4Si90RDIqNm1" crossorigin="anonymous"></script>
+    <script>
+    const email = document.getElementById('email')
+    const password = document.getElementById('password')
+    const submit = document.getElementById('submit')
+   submit.addEventListener('click', function(){
+    var emailValue = email.value
+    var passwordValue = password.value
+    console.log(emailValue)
+    console.log(passwordValue)
+    
+   })
+    </script>
+ 
+  </body>
+</html>
